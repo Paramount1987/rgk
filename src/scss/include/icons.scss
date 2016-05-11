@@ -1,0 +1,9 @@
+@import "spritesmith";
+
+.icon{
+  display: inline-block;
+}
+
+.icon-mobiles{
+  @include sprite($mobiles);
+}

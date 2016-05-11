@@ -15,8 +15,8 @@ gulp.task('sprite', function () {
   var spriteData = gulp.src('./src/img/sprites/*.png').pipe(spritesmith({
     retinaSrcFilter: './src/img/sprites/*-2x.png',
     algorithm: 'binary-tree',
-    imgName: 'sprite.png',
-    retinaImgName: 'sprite-2x.png',
+    imgName: '../img/sprites/sprite.png',
+    retinaImgName: '../img/sprites/sprite-2x.png',
     cssName: '_spritesmith.scss',
     cssFormat: 'scss',
     padding: 5
