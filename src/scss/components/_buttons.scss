@@ -1,0 +1,11 @@
+.btn-rgk{
+  display: inline-block;
+  width: 240px;
+  font: 27px/78px 'Open Sans';
+  font-weight: 400;
+  color:#fff;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  @include gradient-vertical($start-color: #522ac7, $end-color: #36169d, $start-percent: 0%, $end-percent: 100%)
+}

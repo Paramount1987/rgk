@@ -1,0 +1,33 @@
+.rgk-entry{
+  display: inline-block;
+  max-width: 500px;
+  border-radius: 7px;
+  text-align: center;
+  border: 1px solid #ccc;
+  overflow: hidden;
+}
+
+.rgk-entry__body{
+  padding: 30px;
+  background: #fff;
+}
+
+.rgk-entry__body--text{
+  margin: 10px 0;
+  font: 18px/20px 'Open Sans';
+  font-weight: 600;
+}
+
+.rgk-entry__body-top--text{
+  margin: 0;
+  font: 14px/16px 'Open Sans';
+  font-weight: 400;
+  text-align: left;
+}
+
+.rgk-entry__header{
+  font: 16px/35px 'Open Sans';
+  font-weight: 300;
+  border-bottom: 1px solid #ccc;
+  @include gradient-vertical($start-color: #fefefe, $end-color: #f5f5f5, $start-percent: 0%, $end-percent: 100%)
+}
